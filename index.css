@@ -15,13 +15,13 @@ body {
 }
 h2 {
     padding-top: 20px;
-    font-size: 45px;
+    font-size: 5rem;
 } 
 .btn {
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #F43F5E;
     margin-top: 20px;
@@ -64,17 +64,29 @@ p {
     font-size: 28px;
     font-weight: 400;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     h2 {
         font-size: 38px;
         font-weight: 500;
     }
     .results {
-        width: 390px;
-        height: 130px;
+        width: 440px;
+        height: 150px;
+        margin-top: 60px;
     }
     p {
         font-size: 20px;
     }
 
+    .btn {
+        padding: 20px 60px;
+        
+
+    }
+
+    body {
+        font-size: 25px;
+    }
+
 }
+
