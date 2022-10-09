@@ -1,3 +1,7 @@
+*,
+*::before, *::after {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -15,7 +19,7 @@ body {
 }
 h2 {
     padding-top: 20px;
-    font-size: 5rem;
+    font-size: 1.75rem;
 } 
 .btn {
     padding: 10px 30px;
@@ -41,7 +45,8 @@ h2 {
     background: #F43F5E;
     text-align: center;
     font-size: 38px;
-    color: #FFF;   
+    color: #FFF;
+    box-sizing: border-box;   
 }
 
 .results {
@@ -67,7 +72,7 @@ p {
 @media (max-width: 600px) {
     h2 {
         font-size: 38px;
-        font-weight: 500;
+        font-weight: 600;
     }
     .results {
         width: 440px;
